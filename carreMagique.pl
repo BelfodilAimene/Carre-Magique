@@ -20,8 +20,8 @@
          createList(A,B,N,[X|L]) :- valeur(A,B,X),N2 is N-1, createList(A,B,N2,L),
 				    not(member(X,L)).
 
-% CubeMagique(L)
-         cubeMagique(R,Cube) :- R2 is R-1, createList(1,R2,9,Cube),
+% CarreMagique(L) :
+         carreMagique(R,Cube) :- R2 is R-1, createList(1,R2,9,Cube),
 				element(1,A,Cube),element(2,B,Cube),element(3,C,Cube),
 				element(4,D,Cube),element(5,E,Cube),element(6,F,Cube),
 				element(7,G,Cube),element(8,H,Cube),element(9,I,Cube),
