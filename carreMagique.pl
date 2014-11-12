@@ -25,7 +25,13 @@
 				element(1,A,Cube),element(2,B,Cube),element(3,C,Cube),
 				element(4,D,Cube),element(5,E,Cube),element(6,F,Cube),
 				element(7,G,Cube),element(8,H,Cube),element(9,I,Cube),
-				print(Cube),
-				A+B+C==R,D+E+F==R,G+H+I==R.
+				S1 is A+B+C,S1==R,
+				S2 is D+E+F,S2==R,
+				S3 is G+H+I,S3==R,
+				S4 is A+D+G,S4==R,
+				S5 is B+E+H,S5==R,
+				S6 is C+F+I,S6==R,
+				S7 is A+E+I,S7==R,
+				S8 is C+E+G,S8==R.
 
 
